@@ -1,6 +1,6 @@
 # Jenerik Metotlar
 
-Bir metot yazarken, içinde bulunduğu sınıf jenerik olmasa metodu jenerik hale getirebilirsiniz. Bunun için metodun dönüş türünden önce tür parametresini belirtmeniz yeterlidir. Örneğin **_ArrayUtil_** adında bir sınıf yazalım. Bu sınıfın içinde **_arrayContains()_** adında bir metodumuz olsun. Bu metot herhangi bir elemanın dizi içinde olup olmadığını test etsin.
+Bir sınıf jenerik parametre alırsa otomatikman sınıf içinde yeralan tüm metodlar bu jenerik tip üzerinde işlem yapabilme imkanına sahip oluyor. Bazen jenerik tipleri sadece belli metodlar üzerinde kullanmak gerekebilir. Bir metot yazarken, içinde bulunduğu sınıf jenerik olmasa metodu jenerik hale getirebilirsiniz. Bunun için metodun dönüş türünden önce tür parametresini belirtmeniz yeterlidir. Örneğin **_ArrayUtil_** adında bir sınıf yazalım. Bu sınıfın içinde **_arrayContains()_** adında bir metodumuz olsun. Bu metot herhangi bir elemanın dizi içinde olup olmadığını test etsin.
 
 ```java
 public class ArrayUtil
